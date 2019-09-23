@@ -2278,7 +2278,6 @@ a.move-top span {
     -moz-background-size: contain;
     -o-background-size: contain;
     -ms-background-size: contain;	
-    min-height: 100vh;
 	margin-top: -25px;
 }
 .banner_bottom_preorder {
