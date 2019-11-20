@@ -2288,3 +2288,45 @@ a.move-top span {
     -o-background-size: cover;
     -ms-background-size: cover;
 }
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev{
+    display:block;
+}
+.quote-italic {
+	font-style:italic;	
+}
+.about-hny-quote {
+	background: url(../images/quote-bg.jpg) no-repeat top;
+	background-size: contain;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+	-ms-background-size: contain;
+}
+
+@media(max-width:250px) { 
+	.quote-inner {
+		min-height:950px;
+	}
+}
+@media(max-width:320px) { 
+	.quote-inner {
+		min-height:630px;
+	}
+}
+@media(max-width:899px) { 
+	.quote-inner {
+		min-height:715px;
+	}
+}
+@media(min-width:900px) { 
+	.quote-inner {
+		min-height:445px;
+	}
+}
+@media(min-width:1200px) { 
+	.quote-inner {
+		min-height:330px;
+	}
+}
